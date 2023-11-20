@@ -50,5 +50,5 @@ jobs:
       - name: Get parameter object
         run: |
 
-          birthday_value=$(aws ssm get-parameter --name birthday --query Parameter.Value --output text)
+          birthday_value=$(aws ssm get-parameter --name sharil_birthday --query Parameter.Value --output text)
           echo "Sharil's birthday is: $birthday_value" 
