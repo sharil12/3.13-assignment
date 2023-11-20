@@ -1,0 +1,25 @@
+{
+  "name": "3.13-assignment",
+  "version": "1.0.0",
+  "description": "serverless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharil12/3.13-assignment.git"
+  },
+  "author": "sharil12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharil12/3.13-assignment/issues"
+  },
+  "homepage": "https://github.com/sharil12/3.13-assignment#readme",
+  "dependencies": {
+    "serverless": "^3.36.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.2.1"
+  }
+}
